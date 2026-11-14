@@ -1,7 +1,10 @@
-function  greer(name) {
-    return `hello , ${name}!`;
+
+function greet(name) {
+    return `Hello, ${name}!`;
 }
-module.exports = greer;
-if(require.main === module){
-    console.log(greer("word"));
+
+module.exports = greet;
+
+if (require.main === module) {
+    console.log(greet("World"));
 }
